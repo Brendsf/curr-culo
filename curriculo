@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Currículo</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #DF8271;
+        }
+
+        .CaixaDeTexto {
+            max-width: 800px;
+            margin-top: 50px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 5px ;
+            color: #B84030;
+            font-size: 36px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #97A1AA;
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+        .info {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            display: flex; 
+            align-items: center; 
+        }
+
+        .info img {
+        width: 80px; 
+        height: 120px; 
+        margin-right: 10px; 
+    }
+    </style>
+</head>
+
+<body>
+    <div class="CaixaDeTexto">
+        <header>
+            <h1>Brenda Farias Pereira Paiva</h1>
+        </header>
+
+        <section class="info">
+            <img src="https://i.pinimg.com/736x/10/44/a6/1044a6767b6d3160c39bc0c45d9bc762.jpg">
+            <p>Brasileira, 16 anos <br> Endereço: Rua Brejo da Madre de Deus, 180 <br> Bairro: Janga - Paulista -
+                Pernambuco <br> Telefone: (81) 998678-1304 / G-mail: bfpp@discente.ifpe.edu.br</p>
+        </section>
+
+        <section class="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante de do curso de Desenvolvimento de sistemas do IFPE. Faço judô desde os meus 7 anos. Busco constantemente desafios que me permitam expandir meus horizontes e desenvolver minhas habilidades. Sou muito curiosa e pró-ativa, estou sempre em busca de novas oportunidades para me superar e contribuir de forma significativa em qualquer ambiente em que estiver inserida.</p>
+        </section>
+
+        <section class="educacao">
+            <h2>Educação</h2>
+            <ul>
+                <li>IFPE Jaboatão dos Guararapes - Ensino Médio Integrado  Cursando</li>
+                <li>Liceu Nóbrega de Artes e Ofícios - 7° ano ao 9° ano</li>
+                <li>Escola Monsenhor Francisco Salles - 6° ano</li>
+            </ul>
+        </section>
+
+        <section class="curso">
+            <h2>Cursos Complementares</h2>
+            <ul>
+                <li>UI Technovation for girls - Unicap (2022)</li>
+                <li>Curso de Jornalismo - Unicap (2022)</li>
+            </ul>
+        </section>
+
+        <section class = "prod"> 
+            <h2>Produções</h2>
+            <ul> 
+                <li>Podcast Rádio na real - Transporte Público</li>
+                <li><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/72VBx6gIeZrJx6umdrFnYR?utm_source=generator" width="50%" height="150" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                <li>Trabalho de conclusão do ensino fundamental - <a href="https://docs.google.com/document/d/17yUAH4husotQ-SkUTlVX_9P0Il-rHsQx/edit?usp=sharing&ouid=114517762508233866156&rtpof=true&sd=true">A importância da educação sexual nas escolas públicas</a></li>
+            </ul>
+        </section>
+
+        <section class = "projetos">
+            <h2>Projetos</h2>
+            <ul>
+                <li>Pibic - História da participação feminina nos cursos da área de computação do IFPE</li>
+            </ul>
+        </section>
+
+        <section class = "conquistas">
+            <h2>Conquistas Pessoais</h2>
+            <ul>
+                <li>-2x Campeã Pernambucana de Judô</li>
+                <li>-Bronze no Campeonato Brasileiro Região 2 2018</li>
+                <li>-2x Campeã do Open Nordeste de Judô Funcional</li>
+                <li>-6x Vice campeã Pernambucana</li>
+                <li>-Vice campeã dos Jogos Escolares de Pernambuco</li>
+            </ul>
+        </section>
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>-Habilidade de liderança</li>
+                <li>-Capacidade de absorver novas aprendizagens com facilidade</li>
+                <li>-Comunicativa</li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
